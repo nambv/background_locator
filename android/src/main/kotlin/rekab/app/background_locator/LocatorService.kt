@@ -42,7 +42,7 @@ class LocatorService : MethodChannel.MethodCallHandler, JobIntentService() {
 
     companion object {
         @JvmStatic
-        private val JOB_ID = UUID.randomUUID().mostSignificantBits.toInt()
+        private val JOB_ID = 1001
 
         @JvmStatic
         private var backgroundFlutterView: FlutterNativeView? = null
